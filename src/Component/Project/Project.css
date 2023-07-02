@@ -1,0 +1,35 @@
+.body{
+    
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.container .box{
+    /* width: 380px; */
+    /* height: 400px; */
+    background-color: aqua;
+    background-position: top;
+    transition: ease-in-out 4s;
+}
+
+.container .box.box1{
+background: url('/public/project/summer.png');
+background-size: cover;
+}
+.container .box.box2{
+background: url('/public/project/troy.png');
+background-size: cover;
+}
+.container .box.box3{
+background: url('/public/project/kitchen.png');
+background-size: cover;
+}
+
+.container .box:hover{
+    background-position: bottom;
+}
