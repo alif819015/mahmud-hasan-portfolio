@@ -6,7 +6,7 @@ const About = () => {
     <div className="text-white">
       <SectionContainer>
         <h3 className="uppercase text-3xl font-semibold mt-20 text-center text-white">
-          about me
+          about <span className="text-purple-600">me</span>
         </h3>
         <div className="mt-10">
           <div className="avatar flex justify-center ">
