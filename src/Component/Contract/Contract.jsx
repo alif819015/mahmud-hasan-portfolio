@@ -5,8 +5,6 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
-  FaWeixin,
-  FaWhatsapp,
 } from "react-icons/fa";
 import "./Contract.css";
 import gif from "../../../public/Contact.gif";
