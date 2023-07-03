@@ -1,3 +1,4 @@
+import { FaGithub, FaLink } from "react-icons/fa";
 import SectionContainer from "../SectionContainer/SectionContainer";
 import "./Project.css";
 
@@ -16,75 +17,75 @@ const Project = () => {
           <div className="container md:flex">
             <div className="mb-8 md:w-[380px] ">
               <div className="box box1 mb-4 h-[400px]"></div>
-              <div className="bgRadius p-2 bg-gradient-to-b from-black to-gray-800 ">
-                <h3 className="text-xl font-bold">
+              <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800 ">
+                <h3 className="text-xl font-bold text-[#face3c]">
                   Summer Camp Playinspire sports
                 </h3>
-                <p className="font-semibold">Mern Stack Project</p>
+                <p className="font-semibold text-[#0caae8]">Mern Stack Project</p>
                 <p>
                 This is a Sports related WebSite here is some special features. different types of Dashboard for different rol Admin, Instructor, and normal users. stripe payment Gateway System to enroll the Class.
                 </p>
                 <br />
-                <p><span className="font-semibold text-[#face3c]">Technology :</span> VS Code | Cors  | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel | Firebase | Axios | JWT</p>
-                <div className="flex gap-4 mt-3 mb-3">
+                <p><span className="font-semibold text-[#a60ce8]">Technology :</span> VS Code | Cors  | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel | Firebase | Axios | JWT</p>
+                <div className="flex justify-center gap-4 mt-3 mb-3">
                   <a href="https://summer-camp-71b55.web.app">
-                    <button className="btn btn-sm bg-[#a60ce8]">Live Site</button>
+                    <button className="btn btn-sm bg-[#a60ce8]">Live Site <FaLink></FaLink></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-alif819015">
-                    <button className="btn btn-sm bg-[#e87e0c]">Client</button>
+                    <button className="btn btn-sm bg-[#e87e0c]">Client <FaGithub></FaGithub></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-alif819015">
-                    <button className="btn btn-sm bg-[#0caae8]">Server</button>
+                    <button className="btn btn-sm bg-[#0caae8]">Server <FaGithub></FaGithub></button>
                   </a>
                 </div>
               </div>
             </div>
             <div className="mb-8 md:w-[380px]">
               <div className="box box2 mb-4 h-[400px]"></div>
-              <div className="bgRadius p-2 bg-gradient-to-b from-black to-gray-800 ">
-                <h3 className="text-xl font-bold">
+              <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800 ">
+                <h3 className="text-xl font-bold text-[#face3c]">
                   Toy Supper Hero
                 </h3>
-                <p className="font-semibold">Mern Stack Project</p>
+                <p className="font-semibold text-[#0caae8]">Mern Stack Project</p>
                 <p>
-                This is Toy Supper Hero's full-Stack dynamic E-Commerce website . The website offers a user-friendly interface to create an account, browse, upload, search, and see details, etc.
+                This is Toy Supper Hero's full-Stack dynamic E-Commerce website . The website offers a user-friendly interface to create an account, browse, user can upload and add, search, and see details, etc.
                 </p>
                 <br />
-                <p><span className="font-semibold text-[#face3c]">Technology :</span> VS Code | Cors  | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel | Firebase</p>
-                <div className="flex gap-4 mt-3 mb-3">
+                <p><span className="font-semibold text-[#a60ce8]">Technology :</span> VS Code | Cors  | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel | Firebase</p>
+                <div className="flex justify-center gap-4 mt-3 mb-3">
                   <a href="https://toy-marketplace-d6ceb.web.app/myToys">
-                    <button className="btn btn-sm bg-[#a60ce8]">Live Site</button>
+                    <button className="btn btn-sm bg-[#a60ce8]">Live Site <FaLink></FaLink></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-alif819015">
-                    <button className="btn btn-sm bg-[#e87e0c]">Client</button>
+                    <button className="btn btn-sm bg-[#e87e0c]">Client <FaGithub></FaGithub></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-alif819015">
-                    <button className="btn btn-sm bg-[#0caae8]">Server</button>
+                    <button className="btn btn-sm bg-[#0caae8]">Server <FaGithub></FaGithub></button>
                   </a>
                 </div>
               </div>
             </div>
             <div className="md:w-[380px]">
               <div className="box box3 mb-4 h-[400px]"></div>
-              <div className="bgRadius p-2 bg-gradient-to-b from-black to-gray-800 ">
-                <h3 className="text-xl font-bold">
+              <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800 ">
+                <h3 className="text-xl font-bold text-[#face3c]">
                   Chinese Chef
                 </h3>
-                <p className="font-semibold">Mern Stack Project</p>
+                <p className="font-semibold text-[#0caae8]">Mern Stack Project</p>
                 <p>
                 This is KitchenQuest Chinese Chef Website here have been added 6 chef data. here is three recipes of each chef are given. and if you click the favorite button then your favorite show is disabled.
                 </p>
                 <br />
-                <p><span className="font-semibold text-[#face3c]">Technology :</span> VS Code | Cors  | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel | Firebase</p>
-                <div className="flex gap-4 mt-3 mb-3">
+                <p><span className="font-semibold text-[#a60ce8]">Technology :</span> VS Code | Cors  | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel | Firebase</p>
+                <div className="flex justify-center gap-4 mt-3 mb-3">
                   <a href="https://the-news-dragon-clients-8ee7e.web.app/">
-                    <button className="btn btn-sm bg-[#a60ce8]">Live Site</button>
+                    <button className="btn btn-sm bg-[#a60ce8]">Live Site <FaLink></FaLink></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-alif819015">
-                    <button className="btn btn-sm bg-[#e87e0c]">Client</button>
+                    <button className="btn btn-sm bg-[#e87e0c]">Client <FaGithub></FaGithub></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-alif819015">
-                    <button className="btn btn-sm bg-[#0caae8]">Server</button>
+                    <button className="btn btn-sm bg-[#0caae8]">Server <FaGithub></FaGithub></button>
                   </a>
                 </div>
               </div>

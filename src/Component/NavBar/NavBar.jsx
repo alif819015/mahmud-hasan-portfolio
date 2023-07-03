@@ -1,5 +1,7 @@
 import Hamburger from 'hamburger-react';
 import { useState } from 'react';
+import './NavBar.css';
+
 
 const NavBar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -14,9 +16,6 @@ const NavBar = () => {
       </li>
       <li>
         <a href="#project">Project</a>
-      </li>
-      <li>
-        <a href="#portfolio">Portfolio</a>
       </li>
       <li>
         <a href="#contract">Contract</a>
@@ -38,8 +37,8 @@ const NavBar = () => {
             </ul>
           )}
         </div>
-        <a href="#" className="btn btn-ghost normal-case font-serif text-xl hidden lg:flex">
-          Mahmud Hasan
+        <a href="#" className="fontStyle btn-ghost normal-case text-2xl hidden lg:flex">
+          P<span className="text-purple-600">o</span>rtf<span className="text-purple-600">o</span>li<span className="text-purple-600">o</span>
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">

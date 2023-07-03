@@ -25,10 +25,10 @@ const Banner = () => {
         <div className="grid md:grid-cols-2 gap-8 mt-14">
           <div className="md:px-10 sm:px-2 px-4 md:my-auto">
             <h1 className="mb-5 text-5xl font-bold">
-              <span>Hi! I'm</span>
+              <span>Hi! <span className="text-purple-600">I</span> 'm</span>
             </h1>
             <h1 className="mb-5 text-5xl font-bold}">
-              <span>Mahmud Hasan</span>
+              <span><span className="text-purple-600">M</span>ah<span className="text-purple-600">mu</span>d <span className="text-purple-600">H</span>asa<span className="text-purple-600">n</span></span>
             </h1>
             <p className="mb-5">
               I'm a computer science student and a passionate MERN stack
@@ -61,7 +61,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="animetion avatar flex justify-center animate-pulse">
-            <div className="w-80 rounded-full ring ring-offset-primary-focus ring-inset  ring-offset-2">
+            <div className="w-80 rounded-full ring ring-offset-purple-600 ring-inset ring-offset-2">
               <img className="" src={img} alt="" />
             </div>
           </div>
