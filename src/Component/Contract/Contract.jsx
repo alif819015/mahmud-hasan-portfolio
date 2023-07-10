@@ -49,7 +49,7 @@ const Contract = () => {
             id="contract"
             className="text-3xl uppercase font-semibold text-center mt-16"
           >
-            Contract <span className="text-purple-600"> Me!</span>
+            Contract <span className="text-[#da08a2]"> Me!</span>
           </h3>
           <div className="grid md:grid-cols-2 mt-20">
             <div>
@@ -82,12 +82,12 @@ const Contract = () => {
                 ></textarea>
                 <br />
                 <input
-                  className="btn bg-purple-600 mt-4"
+                  className="btn bg-[#da08a2] mt-4"
                   type="submit"
                   value="Send Message"
                 />
               </form>
-              <div className="flex justify-center gap-4 mt-4 text-3xl text-purple-600 ml-6">
+              <div className="flex justify-center gap-4 mt-4 text-3xl text-[#da08a2] ml-6">
                 <a
                   className=""
                   href="https://www.facebook.com/mahmud.hassan.140193"
@@ -109,7 +109,7 @@ const Contract = () => {
         </div>
         <div className="flex justify-end mt-5">
           <a className="mx-auto" href="#home">
-            <FaArrowUp className="arrow animate-bounce text-white bg-purple-600 rounded-md text-3xl "></FaArrowUp>
+            <FaArrowUp className="arrow animate-bounce text-white bg-[#da08a2] rounded-md text-3xl "></FaArrowUp>
           </a>
         </div>
       </SectionContainer>

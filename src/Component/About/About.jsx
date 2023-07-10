@@ -1,20 +1,20 @@
 import SectionContainer from "../SectionContainer/SectionContainer";
-import img from "../../../public/alif6.jpg";
+// import img from "../../../public/alif6.jpg";
 
 const About = () => {
   return (
     <div className="text-white">
       <SectionContainer>
         <h3 className="uppercase text-3xl font-semibold mt-20 text-center text-white">
-          about <span className="text-purple-600">me</span>
+          about <span className="text-[#da08a2]">me</span>
         </h3>
         <div className="mt-10">
-          <div className="avatar flex justify-center ">
-            <div className="w-44 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+          {/* <div className="avatar flex justify-center ">
+            <div className="w-44 mask mask-hexagon">
               <img src={img} />
             </div>
-          </div>
-          <p className="mt-5 px-5 md:px-20">
+          </div> */}
+          <p className="text-justify md:text-center mt-5 px-5 md:px-20">
             Hello, I'm Mahmud Hasan, a passionate and dedicated frontend web
             developer. I did my Bachelor's Degree in Computer Science and
             Engineering from Yunnan University in China. My journey into the

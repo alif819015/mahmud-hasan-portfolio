@@ -32,13 +32,13 @@ const NavBar = () => {
           </label>
           <Hamburger toggled={isOpen} toggle={setOpen} distance="sm" />
           {isOpen && (
-            <ul className="p-2 shadow-purple-200 menu dropdown-content z-[1] bg-purple-600 rounded-box w-auto">
+            <ul className="p-2 shadow-purple-200 menu dropdown-content z-[1] bg-[#da08a2] rounded-box w-auto">
               {navMenu}
             </ul>
           )}
         </div>
         <a href="#" className="fontStyle btn-ghost normal-case text-2xl hidden lg:flex">
-          P<span className="text-purple-600">o</span>rtf<span className="text-purple-600">o</span>li<span className="text-purple-600">o</span>
+          P<span className="text-[#da08a2]">o</span>rtf<span className="text-[#da08a2]">o</span>li<span className="text-[#da08a2]">o</span>
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">

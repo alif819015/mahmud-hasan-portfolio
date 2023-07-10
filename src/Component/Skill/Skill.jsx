@@ -14,7 +14,7 @@ const Skill = () => {
   return (
     <SectionContainer>
       <div className=" text-white">
-        <h3 id="skill" className="uppercase text-3xl font-semibold mt-20 mb-5 text-center">Sk<span className="text-purple-600">i</span>ll</h3>
+        <h3 id="skill" className="uppercase text-3xl font-semibold mt-20 mb-5 text-center">Sk<span className="text-[#da08a2]">i</span>ll</h3>
         <h5 className="md:px-32 text-center ">I have 8 months+ of experience with MERN stack. I have a good understanding of web development technologies, and stacks like MongoDB, Express.js, React.js, Bootstrap, tailwindscss, and Node.js.</h5>
         <div className="grid grid-cols-3 md:grid-cols-5 gap-8 mt-8">
             <div className="card p-3 bg-gray-900 hover:bg-[#240666]">
