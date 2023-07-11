@@ -1,7 +1,7 @@
 import img from "../../../public/alif.png";
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
-const resume = "/Resume.pdf";
+const resume = "/Resume_Mahmud_Hasan_+8801646154609.pdf";
 
 const Banner = () => {
   const downloadResume = (url) => {
