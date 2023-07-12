@@ -3,7 +3,7 @@ import SectionContainer from "../SectionContainer/SectionContainer";
 
 const About = () => {
   return (
-    <div className="text-white">
+    <div id="about" className="text-white">
       <SectionContainer>
         <h3 className="uppercase text-3xl font-semibold mt-20 text-center text-white">
           about <span className="text-[#da08a2]">me</span>

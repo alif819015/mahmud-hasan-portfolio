@@ -1,6 +1,5 @@
 import SectionContainer from "../SectionContainer/SectionContainer";
 import {
-  FaArrowUp,
   FaFacebook,
   FaGithub,
   FaInstagram,
@@ -55,7 +54,7 @@ const Contract = () => {
             <div>
               <img className="w-96 mx-auto mb-5" src={gif} alt="" />
             </div>
-            <div className="text-center mx-auto">
+            <div className="text-center bg-gray-800 mx-auto rounded-xl md:mx-28 py-10">
               <form className="text-black" ref={form} onSubmit={sendEmail}>
                 <input
                   type="text"
@@ -82,7 +81,7 @@ const Contract = () => {
                 ></textarea>
                 <br />
                 <input
-                  className="btn bg-[#da08a2] mt-4"
+                  className="btn btn-outline btn-secondary mt-4"
                   type="submit"
                   value="Send Message"
                 />
@@ -107,17 +106,7 @@ const Contract = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end mt-5">
-          <a className="mx-auto" href="#home">
-            <FaArrowUp className="arrow animate-bounce text-white bg-[#da08a2] rounded-md text-3xl "></FaArrowUp>
-          </a>
-        </div>
       </SectionContainer>
-      <footer className="footer footer-center p-4 bg-gray-800 text-white">
-        <div>
-          <p>Copyright © 2023 - All right reserved by Mahmud Hasan</p>
-        </div>
-      </footer>
     </div>
   );
 };
