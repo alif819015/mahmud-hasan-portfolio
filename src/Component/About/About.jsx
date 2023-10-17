@@ -5,18 +5,17 @@ const About = () => {
   return (
     <div id="about" className="text-white">
       <SectionContainer>
-        <h3 className="uppercase text-3xl font-semibold mt-20 text-center text-white">
+        <h3 className="uppercase text-3xl font-semibold mt-16 md:mt-20 text-center text-white">
           about <span className="text-[#da08a2]">me</span>
         </h3>
-        <div className="mt-10">
+        <div className="mt-5">
           {/* <div className="avatar flex justify-center ">
             <div className="w-44 mask mask-hexagon">
               <img src={img} />
             </div>
           </div> */}
-          <p className="text-justify md:text-center mt-5 px-5 md:px-20">
-            Hello, I'm Mahmud Hasan, a passionate and dedicated frontend web
-            developer. I did my Bachelor's Degree in Computer Science and
+          <p className="text-justify md:text-center md:px-12 px-1">
+            Hello, I'm Mahmud Hasan, a passionate and dedicated Full stack developer. I did my Bachelor's Degree in Computer Science and
             Engineering from Yunnan University in China. My journey into the
             world of programming began when I discovered my love for creating
             visually appealing and interactive websites.To further enhance my

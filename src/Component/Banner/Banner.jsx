@@ -16,7 +16,7 @@ const Banner = () => {
     <div id="home" className="banner hero min-h-screen">
       <div className="hero-overlay"></div>
       <div className="hero-content text-neutral-content">
-        <div className="grid md:grid-cols-2 gap-8 mt-14">
+        <div className="grid md:grid-cols-2 gap-8 mt-5 md:mt-14">
           <div className="md:px-10 sm:px-2 px-4 md:my-auto">
             <h1 className="mb-5 text-5xl font-bold">
               <span>
@@ -30,10 +30,11 @@ const Banner = () => {
               </span>
             </h1>
             <p className="mb-5">
-              I'm a computer science student and a passionate MERN stack
-              developer. I create dynamic web applications with a focus on
-              MongoDB, Express.js, React, and Node.js. I love collaborating with
-              teams and staying up-to-date with web development trends.
+              I have completed my graduation degree in Computer Science and
+              Technology. As a Full stack developer, I have created some dynamic
+              websites. based on ReactJs, MongoDB, Express js, and Node js. I
+              love collaborating with teams and staying up-to-date with web
+              development trends.
             </p>
             <button
               onClick={() => {
@@ -54,7 +55,7 @@ const Banner = () => {
               <a href="https://github.com/alif819015">
                 <FaGithub></FaGithub>
               </a>
-              <a href="https://www.linkedin.com/in/mahmud-hassan-alif-49baba1a0/">
+              <a href="https://www.linkedin.com/in/mahmudhasan819015/">
                 <FaLinkedin></FaLinkedin>
               </a>
             </div>

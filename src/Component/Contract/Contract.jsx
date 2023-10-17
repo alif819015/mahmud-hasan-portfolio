@@ -50,7 +50,7 @@ const Contract = () => {
           >
             Contract <span className="text-[#da08a2]"> Me!</span>
           </h3>
-          <div className="grid md:grid-cols-2 mt-20">
+          <div className="grid md:grid-cols-2 mt-10 md:mt-20">
             <div>
               <img className="w-96 mx-auto mb-5" src={gif} alt="" />
             </div>

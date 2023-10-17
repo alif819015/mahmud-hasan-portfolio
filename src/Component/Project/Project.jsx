@@ -12,7 +12,7 @@ const Project = () => {
         >
           Pr<span className="text-[#da08a2]">o</span>ject
         </h3>
-        <h5 className="md:px-32 text-center mb-5">I am a full-stack web developer and have done many projects till now. Here are showing some of my Mern Stack-related projects.</h5>
+        <h5 className="md:px-12 px-1 text-center mb-5">I am a full-stack web developer and have done many projects till now. Here are showing some of my Mern Stack-related projects.</h5>
         <div className="body md:flex">
           <div className="container md:flex">
             <div className="mb-8 md:w-[380px] ">
@@ -29,13 +29,13 @@ const Project = () => {
                 <p><span className="font-semibold">Technology :</span> VS Code | Cors  | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel | Firebase | Axios | JWT</p>
                 <div className="flex justify-center gap-4 mt-3 mb-3">
                   <a href="https://summer-camp-71b55.web.app">
-                    <button className="btn md:md:btn-sm btn-md btn-md btn-outline btn-secondary">Live Site <FaLink></FaLink></button>
+                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Live Site <FaLink className="-mt-4 md:mt-0"></FaLink></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-alif819015">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Client <FaGithub></FaGithub></button>
+                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Client <FaGithub className="-mt-4 md:mt-0"></FaGithub></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-alif819015">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Server <FaGithub></FaGithub></button>
+                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Server <FaGithub className="-mt-4 md:mt-0"></FaGithub></button>
                   </a>
                 </div>
               </div>
@@ -54,13 +54,13 @@ const Project = () => {
                 <p><span className="font-semibold">Technology :</span> VS Code | Cors  | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel | Firebase</p>
                 <div className="flex justify-center gap-4 mt-3 mb-3">
                   <a href="https://toy-marketplace-d6ceb.web.app/myToys">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Live Site <FaLink></FaLink></button>
+                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Live Site <FaLink className="-mt-4 md:mt-0"></FaLink></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-alif819015">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Client <FaGithub></FaGithub></button>
+                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Client <FaGithub className="-mt-4 md:mt-0"></FaGithub></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-alif819015">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Server <FaGithub></FaGithub></button>
+                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Server <FaGithub className="-mt-4 md:mt-0"></FaGithub></button>
                   </a>
                 </div>
               </div>
@@ -79,13 +79,13 @@ const Project = () => {
                 <p><span className="font-semibold">Technology :</span> VS Code | Cors  | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel | Firebase</p>
                 <div className="flex justify-center gap-4 mt-3 mb-3">
                   <a href="https://the-news-dragon-clients-8ee7e.web.app/">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Live Site <FaLink></FaLink></button>
+                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Live Site <FaLink className="-mt-4 md:mt-0"></FaLink></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-alif819015">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Client <FaGithub></FaGithub></button>
+                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Client <FaGithub className="-mt-4 md:mt-0"></FaGithub></button>
                   </a>
                   <a href="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-alif819015">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Server <FaGithub></FaGithub></button>
+                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">Server <FaGithub className="-mt-4 md:mt-0"></FaGithub></button>
                   </a>
                 </div>
               </div>
