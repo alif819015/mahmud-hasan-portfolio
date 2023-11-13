@@ -12,7 +12,7 @@ const Project = () => {
         >
           Pr<span className="text-[#da08a2]">o</span>ject
         </h3>
-        <h5 className="md:px-12 px-1 text-center mb-5">I am a full-stack web developer and have done many projects till now. Here are showing some of my Mern Stack-related projects.</h5>
+        <h5 className="md:px-12 px-1 text-center mb-5">I am a full-stack web developer and have done many projects till now. Here are showing some of my MERN Stack-related projects.</h5>
         <div className="body md:flex">
           <div className="container md:flex">
             <div className="mb-8 md:w-[380px] ">
@@ -21,7 +21,7 @@ const Project = () => {
                 <h3 className="text-xl font-bold">
                   Summer Camp Playinspire sports
                 </h3>
-                <p className="font-semibold">Mern Stack Project</p>
+                <p className="font-semibold">MERN Stack Project</p>
                 <p>
                 This is a Sports related WebSite here is some special features. different types of Dashboard for different rol Admin, Instructor, and normal users. stripe payment Gateway System to enroll the Class.
                 </p>
@@ -46,7 +46,7 @@ const Project = () => {
                 <h3 className="text-xl font-bold">
                   Toy Supper Hero
                 </h3>
-                <p className="font-semibold">Mern Stack Project</p>
+                <p className="font-semibold">MERN Stack Project</p>
                 <p>
                 This is Toy Supper Hero's full-Stack dynamic E-Commerce website . The website offers a user-friendly interface to create an account, browse, user can upload and add, search, and see details, etc.
                 </p>
@@ -71,7 +71,7 @@ const Project = () => {
                 <h3 className="text-xl font-bold">
                   Chinese Chef
                 </h3>
-                <p className="font-semibold">Mern Stack Project</p>
+                <p className="font-semibold">MERN Stack Project</p>
                 <p>
                 This is KitchenQuest Chinese Chef Website here have been added 6 chef data. here is three recipes of each chef are given. and if you click the favorite button then your favorite show is disabled.
                 </p>
