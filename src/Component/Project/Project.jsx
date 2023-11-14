@@ -12,7 +12,7 @@ const Project = () => {
         >
           Pr<span className="text-[#da08a2]">o</span>ject
         </h3>
-        <h5 className="md:px-12 px-1 text-center mb-5">I am a full-stack web developer and have done many projects till now. Here are showing some of my MERN Stack-related projects.</h5>
+        <h5 className="md:px-12 px-1 text-center mb-5">I am a Full Stack Web Developer and have done many projects till now. Here are showing some of my MERN Stack-related projects.</h5>
         <div className="body md:flex">
           <div className="container md:flex">
             <div className="mb-8 md:w-[380px] ">
