@@ -54,13 +54,12 @@ const NavBar = () => {
   return (
     <div className="navbar md:fixed z-10 text-white xl:px-20 md:px-10 sm:px-2 px-4">
       <div className="navbar-start">
-        <div className="dropdown absolute -top-10 lg:hidden">
-          <label tabIndex={0} className="btn btn-ghost"></label>
+        <div className="lg:hidden">
           <Hamburger toggled={isOpen} toggle={setOpen} distance="sm" />
           {isOpen && (
-            <ul className="p-2 shadow-purple-200 menu dropdown-content z-[1] bg-[#da08a2] rounded-box w-auto">
+            <div className="p-2 shadow-purple-200 menu bg-[#da08a2] rounded-box w-full">
               {navMenu}
-            </ul>
+            </div>
           )}
         </div>
         <Link
@@ -76,7 +75,7 @@ const NavBar = () => {
         </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <ul>{navMenu}</ul>
+        {navMenu}
       </div>
     </div>
   );
