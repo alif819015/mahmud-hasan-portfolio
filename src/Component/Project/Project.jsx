@@ -5,7 +5,7 @@ import "./Project.css";
 const Project = () => {
   return (
     <SectionContainer>
-      <div className="text-white ">
+      <div className="container mx-auto text-white ">
         <h3
           id="project"
           className="uppercase text-3xl font-semibold mt-20 mb-5 text-center"
@@ -17,7 +17,7 @@ const Project = () => {
           Here are showing some of my MERN Stack-related projects.
         </h5>
         <div className="body md:flex">
-          <div className="container md:flex">
+          <div className="container md:flex gap-4">
             <div className="mb-8 md:w-[380px] ">
               <div className="box box1 mb-4 h-[400px]"></div>
               <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800 ">

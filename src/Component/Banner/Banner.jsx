@@ -17,22 +17,22 @@ const Banner = () => {
       <div className="hero-overlay"></div>
       <div className="hero-content text-neutral-content">
         <div className="grid md:grid-cols-2 gap-8 mt-5 md:mt-14">
-          <div className="md:px-10 sm:px-2 px-4 md:my-auto">
-            <h1 className="mb-5 text-5xl font-bold">
+          <div className="md:px-10 sm:px-4 md:my-auto">
+            <h1 className="mb-5 text-4xl md:text-5xl font-bold">
               <span>
-                Hi! <span className="text-[#da08a2]">I</span> 'm
+                Hi! <span className="text-[#da08a2]">I</span>m
               </span>
             </h1>
-            <h1 className="mb-5 text-5xl font-bold">
+            <h1 className="mb-5 text-4xl md:text-5xl font-bold">
               <span>
                 <span>Mahmud </span>
                 <span className="text-[#da08a2]">Hasan</span>
               </span>
             </h1>
-            <p className="mb-5">
+            <p className="mb-5 text-sm md:text-base">
               I have completed my graduation degree in Computer Science and
               Technology. As a Full stack developer, I have created some dynamic
-              websites. based on ReactJs, MongoDB, Express js, and Node js. I
+              websites based on ReactJs, MongoDB, Express js, and Node js. I
               love collaborating with teams and staying up-to-date with web
               development trends.
             </p>
@@ -60,9 +60,9 @@ const Banner = () => {
               </a>
             </div>
           </div>
-          <div className="animetion avatar flex justify-center animate-pulse">
-            <div className="w-80 rounded-full ring ring-offset-[#da08a2] ring-inset ring-offset-2">
-              <img className="" src={img} alt="" />
+          <div className="avatar flex justify-center">
+            <div className="w-52 sm:w-64 md:w-80 rounded-full ring ring-offset-[#da08a2] ring-inset ring-offset-2">
+              <img className="w-full h-full rounded-full" src={img} alt="" />
             </div>
           </div>
         </div>
