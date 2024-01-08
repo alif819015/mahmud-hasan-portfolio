@@ -5,7 +5,8 @@ const About = () => {
   return (
     <div id="about" className="text-white">
       <SectionContainer>
-        <h3 className="uppercase text-3xl font-semibold mt-16 md:mt-20 text-center text-white">
+       <div className="container mx-auto">
+       <h3 className="uppercase text-3xl font-semibold mt-16 md:mt-20 text-center text-white">
           about <span className="text-[#da08a2]">me</span>
         </h3>
         <div className="mt-5">
@@ -32,6 +33,7 @@ const About = () => {
             to discuss potential opportunities.
           </p>
         </div>
+       </div>
       </SectionContainer>
     </div>
   );

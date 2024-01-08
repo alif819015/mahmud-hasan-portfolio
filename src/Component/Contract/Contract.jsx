@@ -41,9 +41,8 @@ const Contract = () => {
       );
   };
   return (
-    <div>
       <SectionContainer>
-        <div className="text-white">
+        <div className="container mx-auto text-white">
           <h3
             id="contract"
             className="text-3xl uppercase font-semibold text-center mt-16"
@@ -54,7 +53,7 @@ const Contract = () => {
             <div>
               <img className="w-96 mx-auto mb-5" src={gif} alt="" />
             </div>
-            <div className="text-center bg-gray-800 mx-auto rounded-xl md:mx-28 py-10">
+            <div className="text-center bg-gray-800 mx-auto rounded-xl md:mx-28 px-5 py-10">
               <form className="text-black" ref={form} onSubmit={sendEmail}>
                 <input
                   type="text"
@@ -107,7 +106,6 @@ const Contract = () => {
           </div>
         </div>
       </SectionContainer>
-    </div>
   );
 };
 

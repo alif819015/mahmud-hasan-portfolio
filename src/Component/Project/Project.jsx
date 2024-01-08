@@ -38,19 +38,31 @@ const Project = () => {
                   Firebase | Axios | JWT
                 </p>
                 <div className="flex justify-center gap-4 mt-3 mb-3">
-                  <a href="https://summer-camp-71b55.web.app">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">
-                      Live Site <FaLink className="-mt-4 md:mt-0"></FaLink>
+                  <a
+                    href="https://summer-camp-71b55.web.app"
+                    className="text-center"
+                  >
+                    <button className="btn btn-md btn-outline btn-secondary py-2">
+                      <span className="">Live Site</span>
+                      <FaLink className="hidden xl:inline"></FaLink>
                     </button>
                   </a>
-                  <a href="https://github.com/alif819015/summer-camp-client">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">
-                      Client <FaGithub className="-mt-4 md:mt-0"></FaGithub>
+                  <a
+                    href="https://github.com/alif819015/summer-camp-client"
+                    className="text-center"
+                  >
+                    <button className="btn btn-md btn-outline btn-secondary py-2">
+                      <span className="">Client</span>
+                      <FaGithub className="hidden xl:inline"></FaGithub>
                     </button>
                   </a>
-                  <a href="https://github.com/alif819015/summer-camp-server">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">
-                      Server <FaGithub className="-mt-4 md:mt-0"></FaGithub>
+                  <a
+                    href="https://github.com/alif819015/summer-camp-server"
+                    className="text-center"
+                  >
+                    <button className="btn btn-md btn-outline btn-secondary py-2">
+                      <span className="">Server</span>
+                      <FaGithub className="hidden xl:inline"></FaGithub>
                     </button>
                   </a>
                 </div>
@@ -74,19 +86,31 @@ const Project = () => {
                   Firebase
                 </p>
                 <div className="flex justify-center gap-4 mt-3 mb-3">
-                  <a href="https://toy-marketplace-d6ceb.web.app/">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">
-                      Live Site <FaLink className="-mt-4 md:mt-0"></FaLink>
+                  <a
+                    href="https://toy-marketplace-d6ceb.web.app/"
+                    className="text-center"
+                  >
+                    <button className="btn btn-md btn-outline btn-secondary py-2">
+                      <span className="">Live Site </span>
+                      <FaLink className="hidden xl:inline"></FaLink>
                     </button>
                   </a>
-                  <a href="https://github.com/alif819015/toy-marketplace-client">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">
-                      Client <FaGithub className="-mt-4 md:mt-0"></FaGithub>
+                  <a
+                    href="https://github.com/alif819015/toy-marketplace-client"
+                    className="text-center"
+                  >
+                    <button className="btn btn-md btn-outline btn-secondary py-2">
+                      <span className="">Client</span>
+                      <FaGithub className="hidden xl:inline"></FaGithub>
                     </button>
                   </a>
-                  <a href="https://github.com/alif819015/toy-marketplace-server">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">
-                      Server <FaGithub className="-mt-4 md:mt-0"></FaGithub>
+                  <a
+                    href="https://github.com/alif819015/toy-marketplace-server"
+                    className="text-center"
+                  >
+                    <button className="btn btn-md btn-outline btn-secondary py-2">
+                      <span className="">Server</span>
+                      <FaGithub className="hidden xl:inline"></FaGithub>
                     </button>
                   </a>
                 </div>
@@ -110,19 +134,31 @@ const Project = () => {
                   Firebase
                 </p>
                 <div className="flex justify-center gap-4 mt-3 mb-3">
-                  <a href="https://the-news-dragon-clients-8ee7e.web.app/">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">
-                      Live Site <FaLink className="-mt-4 md:mt-0"></FaLink>
+                  <a
+                    href="https://the-news-dragon-clients-8ee7e.web.app/"
+                    className="text-center"
+                  >
+                    <button className="btn btn-md btn-outline btn-secondary py-2">
+                      <span className="">Live Site </span>
+                      <FaLink className="hidden xl:inline"></FaLink>
                     </button>
                   </a>
-                  <a href="https://github.com/alif819015/chef-recipe-hunter-client">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">
-                      Client <FaGithub className="-mt-4 md:mt-0"></FaGithub>
+                  <a
+                    href="https://github.com/alif819015/chef-recipe-hunter-client"
+                    className="text-center"
+                  >
+                    <button className="btn btn-md btn-outline btn-secondary py-2">
+                      <span className="">Client</span>
+                      <FaGithub className="hidden xl:inline"></FaGithub>
                     </button>
                   </a>
-                  <a href="https://github.com/alif819015/chef-recipe-hunter-server">
-                    <button className="btn md:btn-sm btn-md btn-outline btn-secondary">
-                      Server <FaGithub className="-mt-4 md:mt-0"></FaGithub>
+                  <a
+                    href="https://github.com/alif819015/chef-recipe-hunter-server"
+                    className="text-center"
+                  >
+                    <button className="btn btn-md btn-outline btn-secondary py-2">
+                      <span className="">Server</span>
+                      <FaGithub className="hidden xl:inline"></FaGithub>
                     </button>
                   </a>
                 </div>

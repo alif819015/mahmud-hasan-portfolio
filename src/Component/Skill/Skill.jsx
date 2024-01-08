@@ -13,7 +13,7 @@ import img10 from '../../../public/Skill/express.png';
 const Skill = () => {
   return (
     <SectionContainer>
-      <div className=" text-white">
+      <div className=" container mx-auto text-white">
         <h3 id="skill" className="uppercase text-3xl font-semibold mt-20 mb-5 text-center">Sk<span className="text-[#da08a2]">i</span>ll</h3>
         <h5 className="md:px-12 px-1 text-center ">I have 1 Year of experience with MERN stack. I have a good understanding of web development technologies, and stacks like MongoDB, Express.js, React.js, Bootstrap, tailwindscss, and Node.js.</h5>
         <div className="grid grid-cols-3 md:grid-cols-5 gap-8 mt-8">
