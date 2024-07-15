@@ -8,6 +8,7 @@ import Project from './Component/Project/Project'
 import Skill from './Component/Skill/Skill'
 import TopButton from './Component/TopButton/TopButton'
 import ParticlesBg from './Particals/ParticalsBg'
+// import 'swiper/swiper-bundle.min.css';
 
 function App() {
   return (

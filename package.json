@@ -15,10 +15,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-lazy-load": "^4.0.1",
     "react-scroll": "^1.9.0",
     "react-tsparticles": "^2.10.1",
     "react-wavify": "^1.8.3",
     "sweetalert2": "^11.7.12",
+    "swiper": "^11.1.4",
     "three": "^0.154.0",
     "tsparticles": "^2.10.1"
   },

@@ -1,3 +1,5 @@
+/* @import 'swiper/swiper-bundle.min.css'; */
+
 .container{
     width: 1200px;
     justify-content: space-between;
@@ -15,16 +17,19 @@
     transition: ease-in-out 4s;
     border-radius: 8px 8px 0 0;
 }
-
-.container .box.box1{
+ .box.box1{
+background: url('/public/project/miss_fit.png');
+background-size: cover;
+}
+ .box.box2{
 background: url('/public/project/summer.png');
 background-size: cover;
 }
-.container .box.box2{
+.box.box3{
 background: url('/public/project/troy.png');
 background-size: cover;
 }
-.container .box.box3{
+.box.box4{
 background: url('/public/project/kitchen.png');
 background-size: cover;
 }
