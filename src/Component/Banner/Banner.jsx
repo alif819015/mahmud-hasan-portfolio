@@ -63,11 +63,13 @@ const Banner = () => {
                 </a>
               </div>
             </div>
+            
             <div className="avatar flex justify-center">
               <div className="w-52 sm:w-64 md:w-80 rounded-full ring ring-offset-[#da08a2] ring-inset ring-offset-2">
-                <img className="w-full h-full rounded-full" src={img} alt="" />
+              <img className="w-full h-full rounded-full" src={img} alt="" />
               </div>
             </div>
+            
           </div>
         </div>
         </SectionContainer>

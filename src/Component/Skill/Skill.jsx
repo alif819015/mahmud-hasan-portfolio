@@ -9,6 +9,8 @@ import img7 from "../../../public/Skill/reactjs.png";
 import img8 from "../../../public/Skill/mongo.png";
 import img9 from "../../../public/Skill/firebase.png";
 import img10 from "../../../public/Skill/express.png";
+import img11 from "../../../public/Skill/Next.js.png";
+import img12 from "../../../public/Skill/typescript.png";
 import LazyLoad from "react-lazy-load";
 
 const Skill = () => {
@@ -24,9 +26,9 @@ const Skill = () => {
         <h5 className="md:px-12 px-1 text-center ">
           I have 1 Year of experience with MERN stack. I have a good
           understanding of web development technologies, and stacks like
-          MongoDB, Express.js, React.js, Bootstrap, tailwindscss, and Node.js.
+          MongoDB, Express.js, React.js, Bootstrap, tailwindcss, Node.js, Next.Js, and TypeScript.
         </h5>
-        <div className="grid grid-cols-3 md:grid-cols-5 gap-8 mt-8">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-8 mt-8">
           <LazyLoad>
             <div className="card p-3 bg-gray-900 hover:bg-[#240666]">
               <img className="mx-auto w-16" src={img1} alt="" />
@@ -135,6 +137,28 @@ const Skill = () => {
               <progress
                 className="progress progress-secondary bg-white min-w-fit mt-1"
                 value={70}
+                max="100"
+              ></progress>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="card p-3 bg-gray-900 hover:bg-[#240666]">
+              <img className="mx-auto w-14 mb-1" src={img11} alt="" />
+              <p className="text-center">Next Js</p>
+              <progress
+                className="progress progress-secondary bg-white min-w-fit mt-1"
+                value={80}
+                max="100"
+              ></progress>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="card p-3 bg-gray-900 hover:bg-[#240666]">
+              <img className="mx-auto w-14 mb-1" src={img12} alt="" />
+              <p className="text-center">Type Script</p>
+              <progress
+                className="progress progress-secondary bg-white min-w-fit mt-1"
+                value={50}
                 max="100"
               ></progress>
             </div>

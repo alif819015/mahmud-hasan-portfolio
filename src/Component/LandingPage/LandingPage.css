@@ -1,0 +1,36 @@
+.container {
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.bgRadius {
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 5px 5px #888888;
+}
+
+.container .box {
+  background-color: aqua;
+  background-position: top;
+  transition: ease-in-out 4s;
+  border-radius: 8px 8px 0 0;
+}
+.box.box11 {
+  background: url("/public/LangingPage/agency-landinga-page.png");
+  background-size: cover;
+}
+.box.box22 {
+  background: url("/public/LangingPage/green-bank-lp.png");
+  background-size: cover;
+}
+.box.box33 {
+  background: url("/public/LangingPage/brokers_lp.png");
+  background-size: cover;
+}
+.box.box44 {
+  background: url("/public/project/kitchen.png");
+  background-size: cover;
+}
+
+.container .box:hover {
+  background-position: bottom;
+}

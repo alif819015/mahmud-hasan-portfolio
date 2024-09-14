@@ -20,10 +20,23 @@ const Project = () => {
         </h5>
         <div>
           <Swiper
-            spaceBetween={70}
-            slidesPerView={3}
+            spaceBetween={100}
+            slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
+            breakpoints={{
+              // when window width is >= 0px
+              320: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 768px
+              767: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              }
+            }}
           >
             {/* Project 1 */}
             <SwiperSlide>
@@ -62,10 +75,7 @@ const Project = () => {
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
-                    <a
-                      href=""
-                      className="text-center"
-                    >
+                    <a href="" className="text-center">
                       <button className="btn btn-md btn-outline btn-secondary py-2">
                         <span className="">Server</span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
