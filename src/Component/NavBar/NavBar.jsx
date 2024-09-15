@@ -40,12 +40,22 @@ const NavBar = () => {
       </li>
       <li>
         <Link
-          to="contract"
+          to="landingPage"
           smooth={true}
           duration={1000}
           onClick={handleNavClick}
         >
-          Contract
+          L.Page
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={1000}
+          onClick={handleNavClick}
+        >
+          Contact
         </Link>
       </li>
     </ul>
@@ -74,9 +84,7 @@ const NavBar = () => {
           <span className="text-[#da08a2]">o</span>
         </Link>
       </div>
-      <div className="navbar-end hidden lg:flex">
-        {navMenu}
-      </div>
+      <div className="navbar-end hidden lg:flex">{navMenu}</div>
     </div>
   );
 };

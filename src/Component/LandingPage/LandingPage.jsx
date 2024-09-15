@@ -28,7 +28,7 @@ const LandingPage = () => {
     <SectionContainer>
       <div className="text-white">
         <h3
-          id="landingpage"
+          id="landingPage"
           className="uppercase text-2xl sm:text-3xl font-semibold my-10 sm:my-20 text-center"
         >
           Lan<span className="text-[#da08a2]">d</span>ing

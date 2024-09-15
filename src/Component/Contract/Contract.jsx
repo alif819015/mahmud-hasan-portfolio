@@ -44,10 +44,10 @@ const Contract = () => {
       <SectionContainer>
         <div className="container mx-auto text-white">
           <h3
-            id="contract"
+            id="contact"
             className="text-3xl uppercase font-semibold text-center mt-16"
           >
-            Contract <span className="text-[#da08a2]"> Me!</span>
+            Contact <span className="text-[#da08a2]"> Me!</span>
           </h3>
           <div className="grid md:grid-cols-2 mt-10 md:mt-20">
             <div>
