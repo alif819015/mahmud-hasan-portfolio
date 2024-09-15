@@ -42,7 +42,7 @@ const Contract = () => {
   };
   return (
       <SectionContainer>
-        <div className="container mx-auto text-white">
+        <div className="text-white">
           <h3
             id="contact"
             className="text-3xl uppercase font-semibold text-center mt-16"

@@ -14,13 +14,13 @@ const Project = () => {
         >
           Pr<span className="text-[#da08a2]">o</span>ject
         </h3>
-        <h5 className="md:px-12 px-1 text-center mb-5">
+        <h5 className="md:px-12 px-1 text-center mb-5 tracking-[0.25px]">
           I am a Full Stack Web Developer and have done many projects till now.
           Here are showing some of my MERN Stack-related projects.
         </h5>
         <div>
           <Swiper
-            spaceBetween={100}
+            spaceBetween={150}
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
@@ -43,9 +43,9 @@ const Project = () => {
               <div className="mb-8 md:w-[380px]">
                 <div className="box box1 mb-4 h-[400px]"></div>
                 <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
-                  <h3 className="text-xl font-bold">Miss Fit</h3>
-                  <p className="font-semibold mt-2 mb-1">Front End Project</p>
-                  <p>
+                  <h3 className="text-xl font-bold tracking-[0.25px]">Miss Fit</h3>
+                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">Front End Project</p>
+                  <p className=" tracking-[0.25px]">
                     Explore our fitness website with diverse product categories.
                     Effortlessly filter by product name and price, ensuring a
                     delightful user experience with a focus on enjoyment and
@@ -56,13 +56,13 @@ const Project = () => {
                     <span className="font-semibold">Technology:</span> VS Code |
                     ReactJS | Vercel | Axios | Tailwindcss
                   </p>
-                  <div className="flex justify-center gap-4 mt-3 mb-3">
+                  <div className="flex justify-center gap-4 mt-4 mb-6">
                     <a
                       href="https://miss-fit.vercel.app/"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Live Site</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Live Site</span>
                         <FaLink className="hidden xl:inline"></FaLink>
                       </button>
                     </a>
@@ -70,14 +70,14 @@ const Project = () => {
                       href="https://github.com/shahid1105/miss-fit/tree/mahmudhasan"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Client</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Client</span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
                     <a href="" className="text-center">
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Server</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Server</span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -90,11 +90,11 @@ const Project = () => {
               <div className="mb-8 md:w-[380px]">
                 <div className="box box2 mb-4 h-[400px]"></div>
                 <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
-                  <h3 className="text-xl font-bold">
+                  <h3 className="text-xl font-bold tracking-[0.25px]">
                     Summer Camp Playinspire Sports
                   </h3>
-                  <p className="font-semibold mt-2 mb-1">MERN Stack Project</p>
-                  <p>
+                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">MERN Stack Project</p>
+                  <p className=" tracking-[0.25px]">
                     Explore our Sports Website with tailored dashboards for
                     Admins, Instructors, and users. Utilize our Stripe payment
                     gateway to seamlessly enroll in classes and enjoy a
@@ -106,13 +106,13 @@ const Project = () => {
                     ReactJS | ExpressJS | NodeJS | MongoDB | Firebase | Axios |
                     JWT
                   </p>
-                  <div className="flex justify-center gap-4 mt-3 mb-3">
+                  <div className="flex justify-center gap-4 mt-4 mb-6">
                     <a
                       href="https://summer-camp-71b55.web.app"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Live Site</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Live Site</span>
                         <FaLink className="hidden xl:inline"></FaLink>
                       </button>
                     </a>
@@ -120,8 +120,8 @@ const Project = () => {
                       href="https://github.com/alif819015/summer-camp-client"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Client</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Client</span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -129,8 +129,8 @@ const Project = () => {
                       href="https://github.com/alif819015/summer-camp-server"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Server</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Server</span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -144,9 +144,9 @@ const Project = () => {
               <div className="mb-8 md:w-[380px]">
                 <div className="box box3 mb-4 h-[400px]"></div>
                 <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
-                  <h3 className="text-xl font-bold">Toy Supper Hero</h3>
-                  <p className="font-semibold mt-2 mb-1">MERN Stack Project</p>
-                  <p>
+                  <h3 className="text-xl font-bold tracking-[0.25px]">Toy Supper Hero</h3>
+                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">MERN Stack Project</p>
+                  <p className=" tracking-[0.25px]">
                     Toy Supper Hero's dynamic full-stack E-Commerce website
                     offers a user-friendly interface for account creation,
                     browsing, uploading, adding, searching, and viewing details
@@ -158,13 +158,13 @@ const Project = () => {
                     Cors | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel |
                     Firebase
                   </p>
-                  <div className="flex justify-center gap-4 mt-3 mb-3">
+                  <div className="flex justify-center gap-4 mt-4 mb-6">
                     <a
                       href="https://toy-marketplace-d6ceb.web.app/"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Live Site</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Live Site</span>
                         <FaLink className="hidden xl:inline"></FaLink>
                       </button>
                     </a>
@@ -172,8 +172,8 @@ const Project = () => {
                       href="https://github.com/alif819015/toy-marketplace-client"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Client</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Client</span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -181,8 +181,8 @@ const Project = () => {
                       href="https://github.com/alif819015/toy-marketplace-server"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Server</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Server</span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -196,9 +196,9 @@ const Project = () => {
               <div className="md:w-[380px]">
                 <div className="box box4 mb-4 h-[400px]"></div>
                 <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
-                  <h3 className="text-xl font-bold">Chinese Chef</h3>
-                  <p className="font-semibold mt-2 mb-1">MERN Stack Project</p>
-                  <p>
+                  <h3 className="text-xl font-bold tracking-[0.25px]">Chinese Chef</h3>
+                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">MERN Stack Project</p>
+                  <p className=" tracking-[0.25px]">
                     KitchenQuest Chinese Chef website showcases profiles of 6
                     chefs, each with three unique recipes. The favorite button
                     feature disables after clicking, ensuring a streamlined user
@@ -210,13 +210,13 @@ const Project = () => {
                     Cors | ReactJS | ExpressJS | NodeJS | MongoDB | Vercel |
                     Firebase
                   </p>
-                  <div className="flex justify-center gap-4 mt-3 mb-3">
+                  <div className="flex justify-center gap-4 mt-4 mb-6">
                     <a
                       href="https://the-news-dragon-clients-8ee7e.web.app/"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Live Site</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Live Site</span>
                         <FaLink className="hidden xl:inline"></FaLink>
                       </button>
                     </a>
@@ -224,8 +224,8 @@ const Project = () => {
                       href="https://github.com/alif819015/chef-recipe-hunter-client"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Client</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Client</span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -233,8 +233,8 @@ const Project = () => {
                       href="https://github.com/alif819015/chef-recipe-hunter-server"
                       className="text-center"
                     >
-                      <button className="btn btn-md btn-outline btn-secondary py-2">
-                        <span className="">Server</span>
+                      <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Server</span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>

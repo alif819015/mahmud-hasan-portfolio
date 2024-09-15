@@ -26,10 +26,6 @@
   background: url("/public/LangingPage/brokers_lp.png");
   background-size: cover;
 }
-.box.box44 {
-  background: url("/public/project/kitchen.png");
-  background-size: cover;
-}
 
 .container .box:hover {
   background-position: bottom;

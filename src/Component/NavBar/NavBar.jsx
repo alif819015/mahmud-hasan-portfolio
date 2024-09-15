@@ -12,7 +12,7 @@ const NavBar = () => {
   };
 
   const navMenu = (
-    <ul className="md:flex gap-4 text-lg font-semibold">
+    <ul className="md:flex gap-6 text-lg font-semibold">
       <li>
         <Link to="home" smooth={true} duration={1000} onClick={handleNavClick}>
           Home
@@ -62,12 +62,12 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar md:fixed z-10 text-white xl:px-20 md:px-10 sm:px-2 px-4">
+    <div className="navbar md:fixed z-10 text-white xl:px-[112px] md:px-10 sm:px-2 px-4">
       <div className="navbar-start">
         <div className="lg:hidden">
           <Hamburger toggled={isOpen} toggle={setOpen} distance="sm" />
           {isOpen && (
-            <div className="p-2 shadow-purple-200 menu bg-[#da08a2] rounded-box w-full">
+            <div className="p-2 shadow-purple-300 shadow-inner menu bg-[#da08a2] rounded-md w-full">
               {navMenu}
             </div>
           )}
@@ -76,7 +76,7 @@ const NavBar = () => {
           to="home"
           smooth={true}
           duration={1000}
-          className="fontStyle btn-ghost normal-case text-2xl hidden lg:flex"
+          className="fontStyle btn-ghost normal-case text-2xl ms-2 lg:flex"
           onClick={handleNavClick}
         >
           P<span className="text-[#da08a2]">o</span>rtf

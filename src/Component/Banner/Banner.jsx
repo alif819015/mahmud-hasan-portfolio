@@ -14,13 +14,13 @@ const Banner = () => {
   };
 
   return (
-    
+         
       <div id="home" className="banner hero min-h-screen">
-        <SectionContainer>
         <div className="hero-overlay"></div>
-        <div className="hero-content text-neutral-content container mx-auto">
-          <div className="grid md:grid-cols-2 gap-8 mt-5 md:mt-14">
-            <div className="md:px-10 sm:px-4 md:my-auto">
+        <div className="hero-content px-0 text-neutral-content">
+          <SectionContainer>
+          <div className="grid md:grid-cols-2 gap-8 mt-5 md:mt-14 ">
+            <div className="sm:px-4 md:px-0 md:my-auto ">
               <h1 className="mb-5 text-4xl md:text-5xl font-bold">
                 <span>
                   Hi! <span className="text-[#da08a2]">I</span>m
@@ -32,7 +32,7 @@ const Banner = () => {
                   <span className="text-[#da08a2]">Hasan</span>
                 </span>
               </h1>
-              <p className="mb-5 text-sm md:text-base">
+              <p className="mb-5 text-sm md:text-base tracking-[0.25px]">
                 I have completed my graduation degree in Computer Science and
                 Technology. As a Full stack developer, I have created some
                 dynamic websites based on ReactJs, MongoDB, Express js, and Node
@@ -71,9 +71,9 @@ const Banner = () => {
             </div>
             
           </div>
+          </SectionContainer>
         </div>
-        </SectionContainer>
-      </div>
+        </div>
   );
 };
 

@@ -23,7 +23,7 @@ const Skill = () => {
         >
           Sk<span className="text-[#da08a2]">i</span>ll
         </h3>
-        <h5 className="md:px-12 px-1 text-center ">
+        <h5 className="text-justify md:px-12 px-1  tracking-[0.25px]">
           I have 1 Year of experience with MERN stack. I have a good
           understanding of web development technologies, and stacks like
           MongoDB, Express.js, React.js, Bootstrap, tailwindcss, Node.js, Next.Js, and TypeScript.

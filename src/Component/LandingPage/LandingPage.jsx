@@ -47,12 +47,12 @@ const LandingPage = () => {
                   <span className="font-semibold">Technology:</span> VS Code |
                   ReactJS | Vercel | Tailwindcss
                 </p>
-                <div className="flex justify-center gap-4 sm:gap-8 mt-3 mb-3">
+                <div className="flex justify-center gap-4 sm:gap-8 mt-4 mb-6">
                   <a
                     href="https://agency-landinga-page-1.vercel.app/"
                     className="text-center"
                   >
-                    <button className="btn btn-sm sm:btn-md btn-outline btn-secondary py-2">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Live Site
                     </button>
                   </a>
@@ -60,7 +60,7 @@ const LandingPage = () => {
                     href="https://github.com/alif819015/agency_landinga_page_1"
                     className="text-center"
                   >
-                    <button className="btn btn-sm sm:btn-md btn-outline btn-secondary py-2">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Client
                     </button>
                   </a>
@@ -77,12 +77,12 @@ const LandingPage = () => {
                   <span className="font-semibold">Technology:</span> VS Code |
                   ReactJS | Vercel | Tailwindcss
                 </p>
-                <div className="flex justify-center gap-4 sm:gap-8 mt-3 mb-3">
+                <div className="flex justify-center gap-4 sm:gap-8 mt-4 mb-6">
                   <a
                     href="https://brokers-lp.vercel.app/"
                     className="text-center"
                   >
-                    <button className="btn btn-sm sm:btn-md btn-outline btn-secondary py-2">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Live Site
                     </button>
                   </a>
@@ -90,7 +90,7 @@ const LandingPage = () => {
                     href="https://github.com/shahid1105/Brokers-LP/tree/mahmudhasan"
                     className="text-center"
                   >
-                    <button className="btn btn-sm sm:btn-md btn-outline btn-secondary py-2">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Client
                     </button>
                   </a>
@@ -107,12 +107,12 @@ const LandingPage = () => {
                   <span className="font-semibold">Technology:</span> VS Code |
                   ReactJS | Vercel | Tailwindcss
                 </p>
-                <div className="flex justify-center gap-4 sm:gap-8 mt-3 mb-3">
+                <div className="flex justify-center gap-4 sm:gap-8 mt-4 mb-6">
                   <a
                     href="https://green-bank-lp.vercel.app/"
                     className="text-center"
                   >
-                    <button className="btn btn-sm sm:btn-md btn-outline btn-secondary py-2">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Live Site
                     </button>
                   </a>
@@ -120,7 +120,7 @@ const LandingPage = () => {
                     href="https://github.com/thamidtuhin74/GreenBank-LP/tree/mahmudhasan"
                     className="text-center"
                   >
-                    <button className="btn btn-sm sm:btn-md btn-outline btn-secondary py-2">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Client
                     </button>
                   </a>
