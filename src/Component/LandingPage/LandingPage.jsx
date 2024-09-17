@@ -52,7 +52,7 @@ const LandingPage = () => {
                     href="https://agency-landinga-page-1.vercel.app/"
                     className="text-center"
                   >
-                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Live Site
                     </button>
                   </a>
@@ -60,7 +60,7 @@ const LandingPage = () => {
                     href="https://github.com/alif819015/agency_landinga_page_1"
                     className="text-center"
                   >
-                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Client
                     </button>
                   </a>
@@ -82,7 +82,7 @@ const LandingPage = () => {
                     href="https://brokers-lp.vercel.app/"
                     className="text-center"
                   >
-                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Live Site
                     </button>
                   </a>
@@ -90,7 +90,7 @@ const LandingPage = () => {
                     href="https://github.com/shahid1105/Brokers-LP/tree/mahmudhasan"
                     className="text-center"
                   >
-                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Client
                     </button>
                   </a>
@@ -112,7 +112,7 @@ const LandingPage = () => {
                     href="https://green-bank-lp.vercel.app/"
                     className="text-center"
                   >
-                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Live Site
                     </button>
                   </a>
@@ -120,7 +120,67 @@ const LandingPage = () => {
                     href="https://github.com/thamidtuhin74/GreenBank-LP/tree/mahmudhasan"
                     className="text-center"
                   >
-                    <button className="border-[1px] rounded-md px-3 py-1 md:py-2 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                      Client
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="keen-slider__slide number-slide3">
+            <div className="mb-8 w-full sm:w-[380px]">
+              <div className="box box44 mb-4 h-[300px] sm:h-[400px]"></div>
+              <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
+                <h3 className="text-lg sm:text-xl font-bold">E-Scooter-Shop</h3>
+                <p>
+                  <span className="font-semibold">Technology:</span> VS Code |
+                  ReactJS | Vercel | Tailwindcss
+                </p>
+                <div className="flex justify-center gap-4 sm:gap-8 mt-4 mb-6">
+                  <a
+                    href="https://scooter-shop.netlify.app/"
+                    className="text-center"
+                  >
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                      Live Site
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/alif819015/E-Scooter-Shop/tree/main"
+                    className="text-center"
+                  >
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                      Client
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="keen-slider__slide number-slide3">
+            <div className="mb-8 w-full sm:w-[380px]">
+              <div className="box box55 mb-4 h-[300px] sm:h-[400px]"></div>
+              <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
+                <h3 className="text-lg sm:text-xl font-bold">Furniture</h3>
+                <p>
+                  <span className="font-semibold">Technology:</span> VS Code |
+                  ReactJS | Vercel | Tailwindcss
+                </p>
+                <div className="flex justify-center gap-4 sm:gap-8 mt-4 mb-6">
+                  <a
+                    href="https://team-task-project-2.vercel.app/"
+                    className="text-center"
+                  >
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
+                      Live Site
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/alif819015/furniture"
+                    className="text-center"
+                  >
+                    <button className="border-[1px] rounded-md px-3 py-1 md:px-6 md:py-1 text-[14px] md:text-[18px] sm:btn-md btn-outline btn-secondary">
                       Client
                     </button>
                   </a>

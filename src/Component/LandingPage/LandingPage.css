@@ -26,6 +26,14 @@
   background: url("/public/LangingPage/brokers_lp.png");
   background-size: cover;
 }
+.box.box44 {
+  background: url("/public/LangingPage/e-scooter-shop.png");
+  background-size: cover;
+}
+.box.box55 {
+  background: url("/public/LangingPage/stellar-cat.png");
+  background-size: cover;
+}
 
 .container .box:hover {
   background-position: bottom;
