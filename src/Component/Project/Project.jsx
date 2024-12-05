@@ -35,7 +35,7 @@ const Project = () => {
               },
               1024: {
                 slidesPerView: 3,
-              }
+              },
             }}
           >
             {/* Project 1 */}
@@ -43,8 +43,12 @@ const Project = () => {
               <div className="mb-8 md:w-[380px]">
                 <div className="box box1 mb-4 h-[400px]"></div>
                 <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
-                  <h3 className="text-xl font-bold tracking-[0.25px]">Miss Fit</h3>
-                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">Front End Project</p>
+                  <h3 className="text-xl font-bold tracking-[0.25px]">
+                    Miss Fit
+                  </h3>
+                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">
+                    Front End Project
+                  </p>
                   <p className=" tracking-[0.25px]">
                     Explore our fitness website with diverse product categories.
                     Effortlessly filter by product name and price, ensuring a
@@ -62,7 +66,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Live Site</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Live Site
+                        </span>
                         <FaLink className="hidden xl:inline"></FaLink>
                       </button>
                     </a>
@@ -71,13 +77,17 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Client</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Client
+                        </span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
                     <a href="" className="text-center">
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Server</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Server
+                        </span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -93,7 +103,9 @@ const Project = () => {
                   <h3 className="text-xl font-bold tracking-[0.25px]">
                     Summer Camp Playinspire Sports
                   </h3>
-                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">MERN Stack Project</p>
+                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">
+                    MERN Stack Project
+                  </p>
                   <p className=" tracking-[0.25px]">
                     Explore our Sports Website with tailored dashboards for
                     Admins, Instructors, and users. Utilize our Stripe payment
@@ -112,7 +124,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Live Site</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Live Site
+                        </span>
                         <FaLink className="hidden xl:inline"></FaLink>
                       </button>
                     </a>
@@ -121,7 +135,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Client</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Client
+                        </span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -130,7 +146,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Server</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Server
+                        </span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -144,8 +162,12 @@ const Project = () => {
               <div className="mb-8 md:w-[380px]">
                 <div className="box box3 mb-4 h-[400px]"></div>
                 <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
-                  <h3 className="text-xl font-bold tracking-[0.25px]">Toy Supper Hero</h3>
-                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">MERN Stack Project</p>
+                  <h3 className="text-xl font-bold tracking-[0.25px]">
+                    Toy Supper Hero
+                  </h3>
+                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">
+                    MERN Stack Project
+                  </p>
                   <p className=" tracking-[0.25px]">
                     Toy Supper Hero's dynamic full-stack E-Commerce website
                     offers a user-friendly interface for account creation,
@@ -164,7 +186,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Live Site</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Live Site
+                        </span>
                         <FaLink className="hidden xl:inline"></FaLink>
                       </button>
                     </a>
@@ -173,7 +197,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Client</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Client
+                        </span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -182,7 +208,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Server</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Server
+                        </span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -196,8 +224,12 @@ const Project = () => {
               <div className="md:w-[380px]">
                 <div className="box box4 mb-4 h-[400px]"></div>
                 <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
-                  <h3 className="text-xl font-bold tracking-[0.25px]">Chinese Chef</h3>
-                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">MERN Stack Project</p>
+                  <h3 className="text-xl font-bold tracking-[0.25px]">
+                    Chinese Chef
+                  </h3>
+                  <p className="font-semibold mt-2 mb-1 tracking-[0.25px]">
+                    MERN Stack Project
+                  </p>
                   <p className=" tracking-[0.25px]">
                     KitchenQuest Chinese Chef website showcases profiles of 6
                     chefs, each with three unique recipes. The favorite button
@@ -216,7 +248,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Live Site</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Live Site
+                        </span>
                         <FaLink className="hidden xl:inline"></FaLink>
                       </button>
                     </a>
@@ -225,7 +259,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Client</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Client
+                        </span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>
@@ -234,7 +270,9 @@ const Project = () => {
                       className="text-center"
                     >
                       <button className="flex gap-1 items-center justify-center border-[1px] rounded-md px-3 py-1 md:py-2 btn-outline btn-secondary ">
-                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">Server</span>
+                        <span className="text-[14px] md:text-[18px] tracking-[0.25px]">
+                          Server
+                        </span>
                         <FaGithub className="hidden xl:inline"></FaGithub>
                       </button>
                     </a>

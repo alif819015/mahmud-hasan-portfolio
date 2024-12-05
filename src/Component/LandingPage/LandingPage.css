@@ -9,29 +9,29 @@
 }
 
 .container .box {
-  background-color: aqua;
+  background-color: rgb(134, 48, 126);
   background-position: top;
   transition: ease-in-out 4s;
   border-radius: 8px 8px 0 0;
 }
 .box.box11 {
-  background: url("/public/LangingPage/agency-landinga-page.png");
+  background: url("/public/LangingPage/agency-landinga-page.webp");
   background-size: cover;
 }
 .box.box22 {
-  background: url("/public/LangingPage/green-bank-lp.png");
+  background: url("/public/LangingPage/green-bank.webp");
   background-size: cover;
 }
 .box.box33 {
-  background: url("/public/LangingPage/brokers_lp.png");
+  background: url("/public/LangingPage/brokers_lp.webp");
   background-size: cover;
 }
 .box.box44 {
-  background: url("/public/LangingPage/e-scooter-shop.png");
+  background: url("/public/LangingPage/e-scooter-shop.webp");
   background-size: cover;
 }
 .box.box55 {
-  background: url("/public/LangingPage/stellar-cat.png");
+  background: url("/public/LangingPage/stellar-cat.webp");
   background-size: cover;
 }
 

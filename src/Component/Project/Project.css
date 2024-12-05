@@ -1,39 +1,38 @@
 /* @import 'swiper/swiper-bundle.min.css'; */
 
-.container{
-    width: 1200px;
-    justify-content: space-between;
-    
+.container {
+  width: 1200px;
+  justify-content: space-between;
 }
 
-.bgRadius{
-    border-radius: 0 0 8px 8px;
-    box-shadow: 0 5px 5px #888888;
+.bgRadius {
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 5px 5px #888888;
 }
 
-.container .box{
-    background-color: aqua;
-    background-position: top;
-    transition: ease-in-out 4s;
-    border-radius: 8px 8px 0 0;
+.container .box {
+  background-color: aqua;
+  background-position: top;
+  transition: ease-in-out 4s;
+  border-radius: 8px 8px 0 0;
 }
- .box.box1{
-background: url('/public/project/miss_fit.png');
-background-size: cover;
+.box.box1 {
+  background: url("/public/project/miss_fit.webp");
+  background-size: cover;
 }
- .box.box2{
-background: url('/public/project/summer.png');
-background-size: cover;
+.box.box2 {
+  background: url("/public/project/summer.webp");
+  background-size: cover;
 }
-.box.box3{
-background: url('/public/project/troy.png');
-background-size: cover;
+.box.box3 {
+  background: url("/public/project/troy.webp");
+  background-size: cover;
 }
-.box.box4{
-background: url('/public/project/kitchen.png');
-background-size: cover;
+.box.box4 {
+  background: url("/public/project/kitchen.webp");
+  background-size: cover;
 }
 
-.container .box:hover{
-    background-position: bottom;
+.container .box:hover {
+  background-position: bottom;
 }

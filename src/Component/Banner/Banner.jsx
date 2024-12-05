@@ -1,4 +1,4 @@
-import img from "../../../public/alif.png";
+import img from "../../../public/alif.webp";
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import SectionContainer from "../SectionContainer/SectionContainer";
 
@@ -14,11 +14,10 @@ const Banner = () => {
   };
 
   return (
-         
-      <div id="home" className="banner hero min-h-screen">
-        <div className="hero-overlay"></div>
-        <div className="hero-content px-0 text-neutral-content">
-          <SectionContainer>
+    <div id="home" className="banner hero min-h-screen">
+      <div className="hero-overlay"></div>
+      <div className="hero-content px-0 text-neutral-content">
+        <SectionContainer>
           <div className="grid md:grid-cols-2 gap-8 mt-5 md:mt-14 ">
             <div className="sm:px-4 md:px-0 md:my-auto ">
               <h1 className="mb-5 text-4xl md:text-5xl font-bold">
@@ -63,17 +62,20 @@ const Banner = () => {
                 </a>
               </div>
             </div>
-            
+
             <div className="avatar flex justify-center">
-              <div className="w-52 sm:w-64 md:w-80 rounded-full ring ring-offset-[#da08a2] ring-inset ring-offset-2">
-              <img className="w-full h-full rounded-full" src={img} alt="" />
+              <div className="w-[80%] rounded-full ring ring-offset-[#da08a2] ring-inset ring-offset-2">
+                <img
+                  className="rounded-full"
+                  src={img}
+                  alt=""
+                />
               </div>
             </div>
-            
           </div>
-          </SectionContainer>
-        </div>
-        </div>
+        </SectionContainer>
+      </div>
+    </div>
   );
 };
 

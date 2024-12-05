@@ -38,7 +38,7 @@ const LandingPage = () => {
         <div ref={sliderRef} className="keen-slider">
           <div className="keen-slider__slide number-slide1">
             <div className="mb-8 w-full sm:w-[380px]">
-              <div className="box box11 mb-4 h-[300px] sm:h-[400px]"></div>
+              <div className="box box11 w-[90%] mb-4 h-[300px] sm:h-[400px]"></div>
               <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
                 <h3 className="text-lg sm:text-xl font-bold">
                   Agency Landing Page
@@ -70,7 +70,7 @@ const LandingPage = () => {
           </div>
           <div className="keen-slider__slide number-slide2">
             <div className="mb-8 w-full sm:w-[380px]">
-              <div className="box box33 mb-4 h-[300px] sm:h-[400px]"></div>
+              <div className="box box33 w-[90%] mb-4 h-[300px] sm:h-[400px]"></div>
               <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
                 <h3 className="text-lg sm:text-xl font-bold">Brokers-LP</h3>
                 <p>
@@ -100,7 +100,7 @@ const LandingPage = () => {
           </div>
           <div className="keen-slider__slide number-slide3">
             <div className="mb-8 w-full sm:w-[380px]">
-              <div className="box box22 mb-4 h-[300px] sm:h-[400px]"></div>
+              <div className="box box22 w-[90%] mb-4 h-[300px] sm:h-[400px]"></div>
               <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
                 <h3 className="text-lg sm:text-xl font-bold">Green-Bank-LP</h3>
                 <p>
@@ -130,7 +130,7 @@ const LandingPage = () => {
           </div>
           <div className="keen-slider__slide number-slide3">
             <div className="mb-8 w-full sm:w-[380px]">
-              <div className="box box44 mb-4 h-[300px] sm:h-[400px]"></div>
+              <div className="box box44 w-[90%] mb-4 h-[300px] sm:h-[400px]"></div>
               <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
                 <h3 className="text-lg sm:text-xl font-bold">E-Scooter-Shop</h3>
                 <p>
@@ -160,7 +160,7 @@ const LandingPage = () => {
           </div>
           <div className="keen-slider__slide number-slide3">
             <div className="mb-8 w-full sm:w-[380px]">
-              <div className="box box55 mb-4 h-[300px] sm:h-[400px]"></div>
+              <div className="box box55 w-[90%] mb-4 h-[300px] sm:h-[400px]"></div>
               <div className="bgRadius py-2 px-5 bg-gradient-to-b from-black to-gray-800">
                 <h3 className="text-lg sm:text-xl font-bold">Furniture</h3>
                 <p>
@@ -195,4 +195,3 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
-
